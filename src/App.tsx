@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {/* ts 'de props kullanımı 1. adım: Component import edilir 2. adım: Prop geçilir. 3.adım: Component sayfasına gidilir*/}
-      <Home name="Büşra Yılmaz" />
+      <Home name="Büşra Yılmaz" courseNumber={10} isNow={true} />
     </div>
   );
 }
