@@ -1,4 +1,5 @@
 import "./App.css";
+import EventAction from "./components/EventAction";
 import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
@@ -32,6 +33,7 @@ function App() {
       <Instructor instructorNameLastName={instructor} />
       <InstructorList instructorNameLastNameList={instructorList} />
       <Request status="loading" />
+      <EventAction />
     </div>
   );
 }
