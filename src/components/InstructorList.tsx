@@ -1,11 +1,5 @@
 import React from "react";
-
-type instructorListType = {
-  instructorNameLastNameList: {
-    firstName: string;
-    lastName: string;
-  }[];
-};
+import { instructorListType } from "./propstype";
 
 function InstructorList(props: instructorListType) {
   return (
