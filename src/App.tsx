@@ -3,6 +3,7 @@ import EventAction from "./components/EventAction";
 import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
+import LoginCheck from "./components/LoginCheck";
 import Request from "./components/Request";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <InstructorList instructorNameLastNameList={instructorList} />
       <Request status="loading" />
       <EventAction />
+      <LoginCheck />
     </div>
   );
 }
